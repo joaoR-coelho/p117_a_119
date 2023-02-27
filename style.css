@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(81, 255, 0) ;
+    
+}
+h1{
+    color: rgb(50, 73, 204);
+    background-color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#show-sketch{
+    float: right;
+    
+}
+#sketchName{
+    color: darkred;
+}
+canvas{
+    border: 5px solid rosybrown;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 3px 3px 40px darkslategray;}
+      to{box-shadow: 3px 3px 40px darkkhaki;}
+}
+p,span{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#score{
+    font-size: 35px;
+    margin-left: 25px;
+}
+#time{
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
